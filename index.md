@@ -9,3 +9,15 @@ Add Axians repository to Helm repos:
 ```bash
 $ helm repo add acsp https://helm.acsp.io
 ```
+
+## Install zabbix-kubernetes-discovery
+
+```bash
+$ helm upgrade --install zabbix-kubernetes-discovery \
+    acsp/zabbix-kubernetes-discovery \
+    --namespace zabbix-monitoring \
+    --set environment.ZABBIX_ENDPOINT="zabbix-proxy.example.com" \
+    --set environment.KUBERNETES_NAME="kubernetes-cluster-name"
+```
+
+For more details on installing Zabbix Kubernetes Discovery, please see the [chart readme](https://github.com/axians-acsp/zabbix-kubernetes-discovery)
