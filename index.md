@@ -22,4 +22,4 @@ $ helm upgrade --install zabbix-kubernetes-discovery \
     --set environment.KUBERNETES_NAME="kubernetes-cluster-name"
 ```
 
-For more details on installing Zabbix Kubernetes Discovery, please see the [chart readme](https://github.com/axians-acsp/zabbix-kubernetes-discovery)
+For more details on installing Zabbix Kubernetes Discovery, please see the [chart readme](https://github.com/axians-acsp/zabbix-kubernetes-discovery/tree/main/helm).
