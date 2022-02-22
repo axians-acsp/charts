@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/assets/axians_logo.png" />
+  <img src="https://raw.githubusercontent.com/axians-acsp/charts/stable/.github/assets/axians_logo.png" />
 </p>
 
 # Axians Helm Charts Repository
