@@ -4,6 +4,26 @@ entries:
   - annotations:
       category: Monitoring
     apiVersion: v2
+    appVersion: 1.4.0
+    created: "2022-08-24T07:11:57.186302751Z"
+    description: Kubernetes monitoring for Zabbix with discovery objects
+    digest: 5bc28707ee7119139e6ab9e41578fc0ffb47d04ed2e98c5f75e0b9cbc8b85b6c
+    keywords:
+    - zabbix
+    - kubernetes
+    - monitoring
+    maintainers:
+    - email: grp-axianscsp-devops@vinci-energies.com
+      name: Axians CSP DevOps
+    name: zabbix-kubernetes-discovery
+    sources:
+    - https://github.com/axians-acsp/zabbix-kubernetes-discovery
+    urls:
+    - https://helm.acsp.io/zabbix-kubernetes-discovery-1.4.0.tgz
+    version: 1.4.0
+  - annotations:
+      category: Monitoring
+    apiVersion: v2
     appVersion: 1.3.4
     created: "2022-08-18T09:13:02.719128214Z"
     description: Kubernetes monitoring for Zabbix with discovery objects
@@ -161,4 +181,4 @@ entries:
     urls:
     - https://helm.acsp.io/zabbix-kubernetes-discovery-1.0.0.tgz
     version: 1.0.0
-generated: "2022-08-18T09:13:02.717804882Z"
+generated: "2022-08-24T07:11:57.184941549Z"
