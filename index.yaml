@@ -5,9 +5,9 @@ entries:
       category: Monitoring
     apiVersion: v2
     appVersion: 1.5.0
-    created: "2025-07-21T07:41:52.559722324Z"
+    created: "2025-07-21T07:48:00.724714297Z"
     description: Kubernetes monitoring for Zabbix with discovery objects
-    digest: 8ce0f8228291a94c62e8e962889ce977c5753603c55c63377568065abce2bf62
+    digest: 8e7b6eacc2de2af3326bb956998b31bd8da435760a6bb5d44516c48da265e2e9
     home: https://helm.acsp.io
     icon: https://assets.zabbix.com/img/logo/zabbix_logo_500x131.png
     keywords:
@@ -244,4 +244,4 @@ entries:
     urls:
     - https://helm.acsp.io/zabbix-kubernetes-discovery-1.0.0.tgz
     version: 1.0.0
-generated: "2025-07-21T07:41:52.559022786Z"
+generated: "2025-07-21T07:48:00.7238763Z"
